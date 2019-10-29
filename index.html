@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <meta name="description" content="Welcome to the official CSULA FSAE website!">
+    <meta name="robots" content = "index, follow">
+
+<!--favicon-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest"> -->
+
+
+    <title>CSULA FSAE</title>
+
+<!--css links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+<!--js scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slider-parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slideshow.js"></script>
+
+
+  </head>
+  <body>
+
+<!-- navbar -->
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left" uk-scrollspy-nav="scroll: true; offset: 500;">
+          <a class="uk-navbar-item uk-logo" href="#lamusci" >CSULA FSAE </a>
+          <img style = "height:70px;" src = "">
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav" uk-scrollspy-nav="scroll: true; offset: 100;">
+              <li>
+                <a id="aboutUsButton" class = "uk-visible@m" href="#aboutUs">About Us</a>
+              </li>
+              <li>
+                <a id="currentTeamButton" class = "uk-visible@m" href="#currentTeam">Current Team</a>
+              </li>
+              <li>
+                <a id="galleryButton" class = "uk-visible@m" href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a id="sponsorsButton" class = "uk-visible@m" href="#sponsors">Sponsors</a>
+              </li>
+              <li>
+                <a id="contactUsButton" class = "uk-visible@m" href="#contactUs">Contact Us</a>
+              </li>
+          </ul>
+          <ul class="uk-navbar-nav">
+            <li>
+              <a class = "navbarToggle uk-icon-link uk-hidden@m uk-dark" style="" href="#offcanvas-flip" uk-icon="icon: menu; ratio:1.5;" uk-toggle></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+<!-- header/heading -->
+    <div class="header" >
+      <h1 id="lamusci" uk-parallax="opacity:1,0.5;"> <span>GOLDEN EAGLE</span> MOTORSPORTS </h1>
+    </div>
+<!-- Events Section -->
+    <div id="eventssection" style="width:auto; background-color:#000000; padding: 7vh;">
+
+      <h1 id="events" class="Title">About Us</h1>
+      <br>
+      <br>
+      <br>
+
+
+      <div class="AboutUs uk-grid">
+
+        <div class="info uk-width-1-2@m">
+          <h2 class="infodesc">Who We Are</h2>
+          <p class="aboutUsText">We are Cal State LA’s Formula SAE team, Golden Eagle Motorsports.
+            Our team consists of students of several disciplines including engineering, computer science, business and more.
+            We welcome students of any major since this team requires more than just engineering to perform.</p>
+        </div>
+
+        <div class="info uk-width-1-2@m uk-width-1-1@s">
+          <h2 class="infodesc">When & Where We Meet</h2>
+          <p class="aboutUsText">We are usually found in the machine shop B-15 underneath the engineering buildings
+            in front of the CSULA baseball field. Our lab is open all the time assuring that there are members from our team
+            or our sister team Baja SAE. Students are welcome to visit us anytime! Visit our "Contact Us" section to speak to the
+            team for any futher questions.</p>
+        </div>
+
+        <div class="info uk-width-1-1@m uk-width-1-1@s">
+          <h2 class="infodesc">What We Do</h2>
+          <p class="aboutUsText">Formula SAE is a team of students who develop and produce an open wheel,
+            open cockpit-based formula style vehicle and compete with schools from around the world. Our competition
+            consists of static and dynamic events testing our design, fabrication and reasoning skills compared to
+            other universities. We push our team members to reach higher potentials by taking them through the engineering
+            cycle which begins by creating requirements, then generating concepts, followed by completing detailed designs,
+            prototyping, testing, manufacturing, and performance verification.</p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- Officers -->
+
+        <div id = "officers" class="officers1">
+          <h1 id="board" class="Title" style="color: black;"> Faculty Advisors </h1>
+          <br>
+
+          <!-- slider -->
+          <div class="slider uk-position-relative" uk-slider="">
+
+              <ul class="uk-slider-items uk-child-width-1-3@xl uk-child-width-1-3@l uk-child-width-1-2@s">
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_advisor_john_bachman.jpg">
+                      </div>
+                      <p class="boardname">John Christopher Bachman, Ph.D.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_advisor_bill_packard.jpg">
+                      </div>
+                      <p class="boardname">Bill Packard</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/armand_pazouki_print.jpg">
+                      </div>
+                      <p class="boardname">Arman Pazouki, Ph.D.</p>
+                    </div>
+                  </li>
+              </ul>
+
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-dark" href="" uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-dark" href="" uk-slidenav-next uk-slider-item="next"></a>
+
+          </div>
+        </div>
+
+        <div id = "officers2" class="officers2">
+          <h1 id="board" class="Title" style="color: black;"> Current Team </h1>
+          <br>
+
+          <!-- slider -->
+          <div class="slider uk-position-relative" uk-slider="">
+
+              <ul class="uk-slider-items uk-child-width-1-5@xl uk-child-width-1-3@l uk-child-width-1-2@s">
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_captain_christian_garcia.jpg">
+                      </div>
+                      <p class="boardname">Christian Garcia</p>
+                      <p class="boarddesc">Captain</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_cocaptain_frank_garcia.jpg">
+                      </div>
+                      <p class="boardname">Frank Garcia</p>
+                      <p class="boarddesc">Co-Captain</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2019_member_abel_moreno.jpg">
+                      </div>
+                      <p class="boardname">Abel Moreno</p>
+                      <p class="boarddesc">Team Member</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_member_antonio_guitierez.jpg">
+                      </div>
+                      <p class="boardname">Antonio Guitierez</p>
+                      <p class="boarddesc">Team Member</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_member_colin_truong.jpg">
+                      </div>
+                      <p class="boardname">Colin Truong</p>
+                      <p class="boarddesc">Team Member</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_member_leonardo_sanchez.jpg">
+                      </div>
+                      <p class="boardname">Leonardo Sanchez</p>
+                      <p class="boarddesc">Team Member</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_member_kimberly_ortiz.jpg">
+                      </div>
+                      <p class="boardname">Kimberly Ortiz</p>
+                      <p class="boarddesc">Team Member</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="officer">
+                      <div class="imgwrapper">
+                        <img class="officerimg" src="img/2020_member_tyler-nguyen.jpg">
+                      </div>
+                      <p class="boardname">Tyler Nguyen</p>
+                      <p class="boarddesc">Team Member</p>
+                    </div>
+                  </li>
+              </ul>
+
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-dark" href="" uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-dark" href="" uk-slidenav-next uk-slider-item="next"></a>
+
+          </div>
+        </div>
+
+<!-- Members and Musicians Sign up -->
+
+    <div id="signup" class="SignUp uk-grid">
+      <div class="member memberimg uk-width-2-5@l uk-width-1-1@s">
+        <h1 class="Title">Members</h1>
+      </div>
+      <div class="member memberinfo uk-width-3-5@l uk-width-1-1@s">
+        <p class="DescriptionText">Members of our club can volunteer and help with our fundraisers, events, and concerts, and earn volunteer hours while doing so. To apply, submit a form through the sign up button below!</p>
+        <a class="mbutton uk-button" href="https://docs.google.com/forms/d/e/1FAIpQLScXgPcA9YGoGqBC-F_fbk9J0ZcvRPAstj4CbLhlT6Argbrosw/viewform">SIGN UP ></a>
+      </div>
+      <div class="musician musicianimg uk-width-2-5@l uk-width-1-1@s">
+        <h1 class="Title">Musicians</h1>
+      </div>
+      <div class="musician musicianinfo uk-width-3-5@l uk-width-1-1@s">
+        <p class="DescriptionText">Musicians are welcome to audition to play at our concerts. Submit an audition form through the sign up button below to apply!</p>
+        <a class="mbutton uk-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeMvUe7CxH8fNzomb2hPWuQxmGUnuxIm7yeQGxJXVJuIDnqaQ/viewform">SIGN UP ></a>
+      </div>
+
+    </div>
+
+<!-- footer/contact us -->
+
+    <div id = "contactUsSection" class="contactUs">
+      <h1 id="contactUs" class="Title"> Contact Us </h1>
+      <hr>
+      <a href="mailto:club.lamusci@gmail.com" data-rel="external"> Email Us > </a>
+      <br>
+      <a href="https://remind.com/join/lamusc"> Join our Remind > </a>
+    </div>
+
+    <div class="footer">
+      <hr>
+      <p>&copy; 2019 by LAMuSci. All rights reserved.</p>
+    </div>
+
+    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+      <div class="uk-offcanvas-bar">
+
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+          <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="scroll: true">
+              <li>
+                <a href="#events">EVENTS</a>
+              </li>
+              <li>
+                <a href="#signup">SIGN UP</a>
+              </li>
+              <li>
+                <a href="#board">BOARD</a>
+              </li>
+              <li>
+                <a href="#contactUs">CONTACT US</a>
+              </li>
+
+
+          </ul>
+
+      </div>
+    </div>
+
+
+    <script src="js/functions.js"></script>
+  </body>
+</html>

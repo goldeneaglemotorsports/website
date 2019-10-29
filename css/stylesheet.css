@@ -1,0 +1,475 @@
+
+@font-face {
+  font-family: IBMPlexSans-Bold;
+  src: url('../fonts/ibmplexsans/IBMPlexSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: IBMPlexSans-SemiBold;
+  src: url('../fonts/ibmplexsans/IBMPlexSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: IBMPlexSans-Light;
+  src: url('../fonts/ibmplexsans/IBMPlexSans-Light.ttf');
+}
+
+.header {
+  height: 100vh;
+  text-align:center;
+  overflow: hidden;
+  position:relative;
+}
+.header::after {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.5)) ,  url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.header h1{
+  position:relative;
+  top: 30%;
+  font-family: 'Roboto';
+  font-size: 9em;
+  font-weight: bold;
+  color: #cccccc;
+}
+
+.header h1 span {
+  color: #FFCE00;
+}
+
+.AboutUs {
+  text-align: center;
+  width: auto;
+  padding-left: 2.5vw;
+  padding-bottom: 5vh;
+}
+.Title {
+  font-family: 'Roboto';
+  font-size: 70px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight:bold;
+  color: white;
+}
+
+.Date{
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 50px;
+  line-height: 1.2;
+  padding-top: 2vh;
+}
+.Time{
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #cc5200;
+}
+.Location{
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #cc5200;
+}
+.infodesc {
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 50px;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #FFCE00;
+}
+
+.aboutUsText{
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5vw;
+  padding-right: 2vw;
+  color: #cccccc;
+}
+
+hr{
+  position:relative;
+  border: 2px solid #ff6600;
+  width: 25%;
+  left: 37.5%;
+  margin-bottom: 5vh;
+  padding:0px;
+}
+
+.info {
+  margin-bottom: 10vh;
+  text-align: left;
+}
+
+.member {
+  height: 500px;
+  overflow: hidden;
+}
+
+.musician {
+  height: 500px;
+  overflow: hidden;
+}
+
+.musicianimg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) ,  url('https://ak5.picdn.net/shutterstock/videos/15915475/thumb/1.jpg');
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  background-attachment:scroll;
+}
+
+.memberimg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('http://www.calstatela.edu/sites/default/files/header-images/police_clery.jpg');
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  background-attachment:scroll;
+}
+
+.memberimg .Title,
+.musicianimg .Title {
+  position:relative;
+  color:white;
+  top:30%;
+  font-size: 100px;
+}
+
+.memberinfo {
+  background-color: black;
+  padding-right: 5vw;
+}
+
+.musicianinfo {
+  background-color: black;
+  padding-right: 5vw;
+}
+
+.DescriptionText {
+  padding-top: 12%;
+  font-family: 'Roboto';
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: left;
+  padding-left: 5vw;
+  color: #cc5200;
+}
+
+.mbutton {
+  margin-left: 5vw;
+  margin-top: 2vh;
+  font-family: 'Roboto';
+  font-size: 35px;
+  padding: 1%;
+  color:white;
+  background-color: black;
+}
+
+.mbutton:hover{
+  color:black;
+  background-color: white;
+  -webkit-transition-duration: 0.5s;
+}
+.ebutton {
+  margin-left: 5vw;
+  font-family: 'Roboto';
+  font-size: 35px;
+  padding: 1%;
+  color:black;
+  background-color:#fff7e6;
+}
+
+.ebutton:hover{
+  color:white;
+  background-color: black;
+  -webkit-transition-duration: 0.5s;
+}
+.imgwrapper{
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #ff6600;
+}
+
+.officerimg {
+  width: auto;
+  height: 100%;
+}
+
+.officer{
+  text-align:center;
+  overflow: hidden;
+  padding-bottom: 5vh;
+}
+
+.officers .Title {
+  padding:3vh;
+}
+
+.contactUs hr {
+  position:relative;
+  border: 2px solid #ff6600;
+  width: 25%;
+  left: 37.5%;
+  margin-bottom: 5vh;
+  padding:0px;
+}
+
+.contactUs .Title {
+  padding-bottom:3vh;
+  color: white;
+}
+
+.contactUs {
+  text-align: center;
+  background-color: black;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+.contactUs a {
+  color: white;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+
+.contactUs a:hover {
+  color: gray;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+
+.officers1 {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1%;
+}
+.officers2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
+.boardname{
+  font-family: 'Roboto' !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.boarddesc{
+  font-family: 'Roboto' !important;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer{
+  background-color: black;
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.footer h1{
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.footer p{
+  font-family: 'Roboto';
+  font-size: 15px;
+  color:white;
+}
+
+.uk-logo,
+.uk-logo:hover,
+.uk-logo:focus {
+  color: white;
+}
+.uk-navbar-container{
+  background-color: #000000 !important;
+}
+
+.uk-navbar-left > a{
+  font-family: 'Roboto' !important;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 2vw;
+}
+
+.uk-navbar-left > ul > li > a{
+  font-family: 'Roboto' !important;
+  font-weight: bold;
+}
+
+
+.uk-navbar-right > ul > li > a{
+  font-family: 'Roboto' !important;
+  color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-weight: bold;
+}
+
+.uk-navbar-right > ul > li > a:hover {
+  color: #666666;
+}
+
+.uk-active > a,
+.uk-active > a:hover{
+  background-color: #000000 !important;
+}
+
+
+.uk-nav > li > a{
+  font-family: 'Roboto' !important;
+  color: white !important;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1600px) {
+
+  .imgwrapper{
+    width: 150px;
+    height: 150px;
+  }
+
+  .boardname{
+    margin: 0px;
+  }
+
+  .boarddesc{
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+
+  .officers {
+    text-align: center;
+  }
+
+  .officer {
+    text-align: center;
+  }
+
+  .memberimg .Title,
+  .musicianimg .Title {
+    font-size: 80px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .header h1{
+    font-size: 150px;
+    top: 40%;
+    font-weight: bold;
+  }
+
+}
+@media only screen and (max-width: 700px) {
+
+  .header::after {
+    background: url('../img/IMG_2138.JPG');
+  }
+
+  .header h1{
+    font-size: 120px;
+    top: 20%;
+  }
+
+  .header h1 span{
+    font-size: 120px;
+  }
+
+  .imgwrapper{
+    width: 100px;
+    height: 100px;
+  }
+
+  .boardname{
+    font-size: 18px;
+    margin: 0px;
+  }
+
+  .boarddesc{
+    font-size: 15px;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+
+  .officers {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .memberimg .Title,
+  .musicianimg .Title {
+    font-size: 60px;
+  }
+
+  .DescriptionText {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .mbutton {
+    font-size: 25px;
+  }
+
+  .member {
+    height: 390px;
+  }
+
+  .musician {
+    height: 390px;
+  }
+
+  .navbarToggle svg{
+    color: white;
+
+  }
+
+  .navbarToggle {
+    width: 70px;
+  }
+
+  .uk-offcanvas-close svg{
+    color: white;
+  }
+
+  .contactUs .Title {
+    font-size: 50px;
+  }
+  .contactUs .Title:hover {
+    font-size: 50px;
+  }
+  .contactUs .Title:focus {
+    font-size: 50px;
+  }
+  .contactUs a {
+    font-size: 25px;
+  }
+  .contactUs a:hover {
+    font-size: 25px;
+  }
+  .contactUs a:focus {
+    font-size: 25px;
+  }
+
+}
