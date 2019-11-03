@@ -113,40 +113,73 @@ hr{
   text-align: left;
 }
 
-.member {
+.sponsor {
   height: 500px;
+  border: none;
   overflow: hidden;
 }
 
-.musician {
-  height: 500px;
-  overflow: hidden;
-}
-
-.musicianimg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) ,  url('https://ak5.picdn.net/shutterstock/videos/15915475/thumb/1.jpg');
+.eagle{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) ,  url('https://www.thoughtco.com/thmb/HkYbzkvhT1OzVdXLRkKwh6mp8Xc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg');
   background-repeat: no-repeat;
   background-position:center center;
   background-size: cover;
   background-attachment:scroll;
 }
 
-.memberimg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('http://www.calstatela.edu/sites/default/files/header-images/police_clery.jpg');
+.falcon{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) ,  url('https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/11/04/931/524/694940094001_5857455145001_5857450760001-vs.jpg?ve=1&tl=1');
   background-repeat: no-repeat;
   background-position:center center;
   background-size: cover;
   background-attachment:scroll;
 }
 
-.memberimg .Title,
-.musicianimg .Title {
+.pelican{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('https://download.ams.birds.cornell.edu/api/v1/asset/70589261/1800');
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  background-attachment:scroll;
+}
+
+.eagle .Title,
+.falcon .Title,
+.pelican .Title {
   position:relative;
   color:white;
   top:30%;
   font-size: 100px;
 }
 
+#modal .Title,
+#modal1 .Title,
+#modal2 .Title,
+#gallery .Title{
+  color: black;
+}
+
+.slideshow {
+  padding: 2% 10% 5% 10%;
+}
+
+.ukdotnav{
+  border: black;
+}
+.sponsors {
+  background-color: black;
+  padding: 1vh;
+  text-align:center;
+}
+.sponsors .Title {
+  color: #FFCE00;
+}
+.sponsorText {
+  color: #cccccc;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
 .memberinfo {
   background-color: black;
   padding-right: 5vw;
@@ -220,7 +253,10 @@ hr{
 .officers .Title {
   padding:3vh;
 }
-
+#contactUs {
+  font-size: 40px;
+  padding: 0;
+}
 .contactUs hr {
   position:relative;
   border: 2px solid #ff6600;
@@ -230,11 +266,18 @@ hr{
   padding:0px;
 }
 
+i.fab,
+i.fas {
+  color: white;
+}
 .contactUs .Title {
   padding-bottom:3vh;
   color: white;
 }
-
+.footer a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .contactUs {
   text-align: center;
   background-color: black;
@@ -432,11 +475,7 @@ hr{
     font-size: 25px;
   }
 
-  .member {
-    height: 390px;
-  }
-
-  .musician {
+  .sponsor {
     height: 390px;
   }
 
