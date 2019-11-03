@@ -383,6 +383,7 @@ i.fas {
   font-family: 'Roboto' !important;
   color: white !important;
   font-size: 25px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -491,7 +492,6 @@ i.fas {
   .uk-offcanvas-close svg{
     color: white;
   }
-
   .contactUs .Title {
     font-size: 50px;
   }
