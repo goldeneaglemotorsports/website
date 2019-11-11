@@ -62,6 +62,19 @@
   color: white;
 }
 
+.uk-light .uk-iconnav>.uk-active>a>svg>rect {
+  color:white;
+}
+.uk-light .uk-iconnav>.uk-active>.uk-icon {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.uk-light .uk-iconnav>*>a>svg>rect {
+  width: 24px !important;
+  height:4px;
+}
+.uk-light .uk-iconnav>*>a>svg{
+  width: 24px;
+}
 .Date{
   text-align: center;
   font-family: 'Roboto';
@@ -89,7 +102,9 @@
   font-weight: bold;
   color: #FFCE00;
 }
-
+.boarddesc {
+  color: #bbb;
+}
 .aboutUsText{
   font-family: 'Roboto';
   font-size: 20px;
@@ -143,6 +158,31 @@ hr{
   background-attachment:scroll;
 }
 
+.eagle:hover{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)) ,  url('https://www.thoughtco.com/thmb/HkYbzkvhT1OzVdXLRkKwh6mp8Xc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg');
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+}
+
+.falcon:hover{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)) ,  url('https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/11/04/931/524/694940094001_5857455145001_5857450760001-vs.jpg?ve=1&tl=1');
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+
+.pelican:hover{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)) , url('https://download.ams.birds.cornell.edu/api/v1/asset/70589261/1800');
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+#officers,
+#officers2 {
+  background-color: black;
+}
+
 .eagle .Title,
 .falcon .Title,
 .pelican .Title {
@@ -154,28 +194,31 @@ hr{
 
 #modal .Title,
 #modal1 .Title,
-#modal2 .Title,
-#gallery .Title{
+#modal2 .Title{
   color: black;
 }
-
-.slideshow {
-  padding: 2% 10% 5% 10%;
+#gallery .Title{
+  color: black;
+  padding-top: 0%;
+  margin-top:5%;
+}
+#gallery {
+  padding: 5%;
 }
 
 .ukdotnav{
   border: black;
 }
 .sponsors {
-  background-color: black;
+  background-color: white;
   padding: 1vh;
   text-align:center;
 }
 .sponsors .Title {
-  color: #FFCE00;
+  color: black;
 }
 .adblock {
-  color: #cccccc;
+  color: #222;
   font-family: 'Roboto';
   font-weight: bold;
   font-size: 20px;
@@ -215,6 +258,7 @@ hr{
   color:black;
   background-color: white;
   -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 .ebutton {
   margin-left: 5vw;
@@ -229,6 +273,7 @@ hr{
   color:white;
   background-color: black;
   -webkit-transition-duration: 0.5s;
+  transition-duration:0.5s;
 }
 .imgwrapper{
   display: inline-block;
@@ -237,7 +282,7 @@ hr{
   height: 150px;
   overflow: hidden;
   border-radius: 50%;
-  border: 2px solid #ff6600;
+  border: 2px solid #ffce00;
 }
 
 .officerimg {
@@ -308,11 +353,13 @@ i.fas {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 2%;
+  padding-top: 2%;
 }
 .boardname{
   font-family: 'Roboto' !important;
   font-size: 20px;
   font-weight: bold;
+  color: white;
 }
 
 .boarddesc{
@@ -340,10 +387,9 @@ i.fas {
   color:white;
 }
 
-.uk-logo,
-.uk-logo:hover,
-.uk-logo:focus {
-  color: white;
+.uk-logo {
+  height: 100px;
+  padding: 5% 0% 5% 20%;
 }
 .uk-navbar-container{
   background-color: #000000 !important;
@@ -379,12 +425,31 @@ i.fas {
   background-color: #000000 !important;
 }
 
-
 .uk-nav > li > a{
   font-family: 'Roboto' !important;
   color: white !important;
   font-size: 25px;
   font-weight: bold;
+}
+.sponsors {
+  padding: 2% 10% 2% 10%;
+}
+.sponsors2 {
+    background-color: black;
+    padding: 2%;
+}
+.sponsors2>.adblock {
+  color: #ccc;
+}
+.sponsors2>.Title {
+  color: #ffce00;
+}
+.SponsorUs>button>.Title {
+  font-size: 80px;
+}
+.sponsorimg {
+  width: 400px;
+  padding: 2%;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -392,6 +457,17 @@ i.fas {
   .imgwrapper{
     width: 150px;
     height: 150px;
+  }
+
+  .officers1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+  }
+  .officers2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
   }
 
   .boardname{
@@ -415,31 +491,38 @@ i.fas {
   .musicianimg .Title {
     font-size: 80px;
   }
-
 }
 
 @media only screen and (max-width: 1200px) {
 
   .header h1{
-    font-size: 150px;
+    font-size: 90px;
     top: 40%;
     font-weight: bold;
   }
-
+}
+@media only screen and (max-width:1000px) {
+  .uk-iconnav{
+    display: none;
+  }
+  .sponsorimg {
+    width: 250px;
+    padding: 2%;
+  }
 }
 @media only screen and (max-width: 700px) {
 
   .header::after {
-    background: url('../img/IMG_2138.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.5)) ,  url('../img/background2.jpg');
   }
 
   .header h1{
-    font-size: 120px;
-    top: 20%;
+    font-size: 45px;
+    top: 30%;
   }
 
   .header h1 span{
-    font-size: 120px;
+    font-size: 70px;
   }
 
   .imgwrapper{
@@ -494,22 +577,35 @@ i.fas {
     color: white;
   }
   .contactUs .Title {
-    font-size: 50px;
+    font-size: 40px;
   }
-  .contactUs .Title:hover {
-    font-size: 50px;
+  .Title {
+    font-size: 40px;
   }
-  .contactUs .Title:focus {
-    font-size: 50px;
+  .infodesc {
+    font-size: 40px;
   }
-  .contactUs a {
-    font-size: 25px;
+  .aboutUsText {
+    font-size: 16px;
   }
-  .contactUs a:hover {
-    font-size: 25px;
+  .adblock {
+    font-size: 16px;
   }
-  .contactUs a:focus {
-    font-size: 25px;
+  .sponsors>.Title {
+    padding-bottom: 0px;
   }
-
+  .eagle,
+  .pelican,
+  .falcon {
+    height: 300px;
+  }
+  .eagle>.Title,
+  .pelican>.Title,
+  .falcon>.Title {
+    font-size: 60px !important;
+  }
+  .uk-logo {
+    height: 70px;
+    padding: 5% 10% 5% 10%;
+  }
 }
