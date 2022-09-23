@@ -151,7 +151,7 @@ hr{
 }
 
 .pelican{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('https://download.ams.birds.cornell.edu/api/v1/asset/70589261/1800');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('https://www.allaboutbirds.org/guide/assets/photo/304463771-480px.jpg');
   background-repeat: no-repeat;
   background-position:center center;
   background-size: cover;
