@@ -134,6 +134,12 @@ hr{
   overflow: hidden;
 }
 
+.sponsorGEMLogo {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
 .eagle{
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) ,  url('https://www.thoughtco.com/thmb/HkYbzkvhT1OzVdXLRkKwh6mp8Xc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg');
   background-repeat: no-repeat;
@@ -217,6 +223,43 @@ hr{
 .sponsors .Title {
   color: black;
 }
+
+.eagle-sponsors {
+  background-color: white;
+  padding: 1vh;
+  text-align:center;
+}
+
+.eagle-sponsors .Title {
+  color: #FFCA09;
+  text-decoration: underline;
+}
+
+
+.falcon-sponsors {
+  background-color: white;
+  padding: 1vh;
+  text-align:center;
+}
+
+.falcon-sponsors .Title {
+  color: #B4B4B4;
+  text-decoration: underline;
+}
+
+
+.pelican-sponsors {
+  background-color: white;
+  padding: 1vh;
+  text-align:center;
+}
+
+.pelican-sponsors .Title {
+  color: #AC8A56;
+  text-decoration: underline;
+}
+
+
 .adblock {
   color: #222;
   font-family: 'Roboto';
@@ -612,4 +655,88 @@ i.fas {
     height: 70px;
     padding: 5% 10% 5% 10%;
   }
+
 }
+
+  .table {
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+    border-spacing: 30px;
+    width: 100%;
+  }
+
+  .table th {
+    border:1px solid #b3adad;
+    padding:5px;
+    background: #ffd500;
+    color: #000000;
+    font-size: 30px;
+  }
+
+  .table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #000000;
+  }
+
+  
+  .button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #ffce00;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #ffce00;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: #fff;
+    background-color: #ffce00;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+   
+  .flex-parent {
+    display: flex;
+  }
+  
+  .jc-center {
+    justify-content: center;
+  }
+  
+  button.margin-right {
+    margin-right: 20px;
+  }
+              
+
