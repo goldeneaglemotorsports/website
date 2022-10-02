@@ -224,37 +224,47 @@ hr{
   color: black;
 }
 
-.eagle-sponsors {
+.goldeneagle-sponsors {
   background-color: white;
   padding: 1vh;
   text-align:center;
 }
 
-.eagle-sponsors .Title {
+.goldeneagle-sponsors .Title {
   color: #FFCA09;
   text-decoration: underline;
 }
 
-
-.falcon-sponsors {
+.gold-sponsors {
   background-color: white;
   padding: 1vh;
   text-align:center;
 }
 
-.falcon-sponsors .Title {
+.gold-sponsors .Title {
+  color: gold;
+  text-decoration: underline;
+}
+
+.silver-sponsors {
+  background-color: white;
+  padding: 1vh;
+  text-align:center;
+}
+
+.silver-sponsors .Title {
   color: #B4B4B4;
   text-decoration: underline;
 }
 
 
-.pelican-sponsors {
+.bronze-sponsors {
   background-color: white;
   padding: 1vh;
   text-align:center;
 }
 
-.pelican-sponsors .Title {
+.bronze-sponsors .Title {
   color: #AC8A56;
   text-decoration: underline;
 }
@@ -739,4 +749,41 @@ i.fas {
     margin-right: 20px;
   }
               
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
 
+.styled-table thead tr {
+  background-color: #ffce00;
+  color: black;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    vertical-align: top;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #ffce00;
+}
+
+.styled-row {
+  font-weight: bold;
+  color: black;
+}
