@@ -828,3 +828,34 @@ i.fas {
   font-weight: bold;
   color: black;
 }
+
+
+.team-table table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.team-table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h2.teams-page {
+  font-family: 'Roboto';
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight:bold;
+  color: black;
+}
