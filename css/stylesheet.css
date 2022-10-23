@@ -726,7 +726,7 @@ i.fas {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 30%;
+    width: 50%;
     will-change: transform;
   }
   
@@ -771,7 +771,7 @@ i.fas {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 30%;
+    width: 50%;
     will-change: transform;
   }
 
