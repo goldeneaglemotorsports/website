@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L4T85XJ1DZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L4T85XJ1DZ');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <meta name="description" content="Welcome to the official CSULA FSAE website!">
+    <meta name="robots" content = "index, follow">
+
+<!--favicon-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest"> -->
+
+
+    <title>Cal State LA Formula SAE | Golden Eagle Motorsports</title>
+
+<!--css links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+<!--js scripts-->
+    <script>
+      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+        document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slider-parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slideshow.js"></script>
+    <script src="https://kit.fontawesome.com/4fe1792283.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+<!-- navbar -->
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left" uk-scrollspy-nav="scroll: true; offset: 500;">
+          <a href="#csulafsae"><img class="uk-navbar-item uk-logo" src="img/GoldenEagleMotorsportsWE.png"></a>
+          <img style = "height:70px;" src = "">
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav" uk-scrollspy-nav="scroll: true; offset: 300;">
+              <li>
+                <a id="aboutUsButton" class = "uk-visible@m" href="#aboutUs">About Us</a>
+              </li>
+              <li>
+                <a id="sponsorsButton" class = "uk-visible@m" href="sponsorships.html">Sponsors</a>
+              </li>
+              <li>
+                <a id="currentTeamButton" class = "uk-visible@m" href="team.html">Current Team</a>
+              </li>
+              <li>
+                <a id="galleryButton" class = "uk-visible@m" href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a id="contactUsButton" class = "uk-visible@m" href="#contactUs">Contact Us</a>
+              </li>
+          </ul>
+          <ul class="uk-navbar-nav">
+            <li>
+              <a class = "navbarToggle uk-icon-link uk-hidden@m uk-dark" style="" href="#offcanvas-flip" uk-icon="icon: menu; ratio:1.5;" uk-toggle></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+<!-- header/heading -->
+    <div class="header" >
+      <h1 id="culsafsae" uk-parallax="opacity:1,0.5;"> <span>CONTACT US</span> </h1>
+    </div>
+
+<!-- advisors' contact info -->
+<div class="contactus">
+    <h1 id="contactUs" class="Title">Advisors</h1>
+    <p>Chris Bachman (Chris.Bachman@calstatela.edu)</p>
+    <p></p>
+
+    <!-- social media accounts -->
+
+    <h1 id="contactUs" class="Title"> Social Media Accounts</h1>
+    <a href="https://www.facebook.com/csulafsae/"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="https://www.instagram.com/csula_fsae/"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="mailto:csulaformula@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+</div>
+
+<!-- contact form -->    
+    <h3>Contact Form</h3>
+
+    <div class="container">
+    <form action="/action_page.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Eddie Eagle">
+
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" placeholder="your-email@email.com">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+
+<!-- footer/contact us -->
+
+<div class="footer">
+    <h1 id="contactUs" class="Title"> Contact Us </h1>
+    <p> csulaformula@gmail.com </p>
+    <a href="https://www.facebook.com/csulafsae/"><i class="fab fa-facebook fa-2x"></i></a>
+    <!-- <a href="https://twitter.com/CalStateLAFSAE/"><i class="fab fa-twitter fa-2x"></i></a> -->
+    <a href="https://www.instagram.com/csula_fsae/"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="mailto:csulaformula@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+    <p>&copy; 2022 by Golden Eagle Motorsports. All rights reserved.</p>
+  </div>
+
+  <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="scroll: true">
+            <li>
+              <a href="#aboutUs">About Us</a>
+            </li>
+            <li>
+              <a href="sponsorships.html">Sponsors</a>
+            </li>
+            <li>
+              <a href="team.html">Current Team</a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="#contactUs">Contact Us</a>
+            </li>
+
+        </ul>
+
+    </div>
+  </div>
+
+
+  <script src="js/functions.js"></script>
+</body>
+</html>
