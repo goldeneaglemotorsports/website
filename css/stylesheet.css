@@ -1043,16 +1043,36 @@ ul li {
 .about-sec {
   display: flex;
   justify-content: center;
+  width: 100%;
 
 
 }
 
 .about-cont {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  gap: 1.7rem;
+  width: 66%;
 
+}
 
+.abt-txt h1{
+  font-size: 24px;
+}
+
+.abt-txt p{
+  font-size: 17px;
+}
+
+.about-cont img {
+  height: 260px;
+  width: auto;
 
 }
 
 .abt-txt {
-  width: 77%;
+  justify-content: center;
+ 
 }
