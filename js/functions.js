@@ -35,11 +35,9 @@ const buttons = document.querySelectorAll("[data-carousel-button]");
 
 Array.prototype.forEach.call(buttons, (button) => {
     button.addEventListener("click", () => {
-        const offset = button.dataset.carouselButton === "next" ? 1 : -1;
-        const slides = button
-            .closest("[data-carousel]")
-            .querySelector('[data-slides]');
-
+        const offset = button.dataset.carouselButton === "forw" ? 1 : -1;
+        const carousel = button.closest("[data-carousel]");
+        const slides = carousel.querySelector('[data-slides]');
         const activeSlide = slides.querySelector("[data-active]");
         let newIndex = Array.from(slides.children).indexOf(activeSlide) + offset;
 
@@ -47,9 +45,9 @@ Array.prototype.forEach.call(buttons, (button) => {
         if (newIndex >= slides.children.length) newIndex = 0;
 
         // Remove the active state from the currently active slide
-        activeSlide.dataset.active = "false";
-        
+        activeSlide.removeAttribute("data-active");
+
         // Add the active state to the new active slide
-        slides.children[newIndex].dataset.active = "true";
+        slides.children[newIndex].setAttribute("data-active", "");
     })
 })
