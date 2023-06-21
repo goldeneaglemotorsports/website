@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: IBMPlexSans-Bold;
   src: url('../fonts/ibmplexsans/IBMPlexSans-Bold.ttf');
@@ -14,15 +13,20 @@
   src: url('../fonts/ibmplexsans/IBMPlexSans-Light.ttf');
 }
 
+link[rel="icon"] {
+  font-size: 34px; 
+}
+
 .header {
   height: 100vh;
-  text-align:center;
+  text-align: center;
   overflow: hidden;
-  position:relative;
+  position: relative;
 }
+
 .header::after {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.5)) ,  url('../img/background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.5)), url('../img/background.jpg');
   background-repeat: no-repeat;
   background-size: cover !important;
   background-attachment: fixed;
@@ -34,8 +38,8 @@
   z-index: -1;
 }
 
-.header h1{
-  position:relative;
+.header h1 {
+  position: relative;
   top: 30%;
   font-family: 'Roboto';
   font-size: 9em;
@@ -53,12 +57,13 @@
   padding-left: 2.5vw;
   padding-bottom: 5vh;
 }
+
 .Title {
   font-family: 'Roboto';
   font-size: 70px;
   text-align: center;
   margin-top: 50px;
-  font-weight:bold;
+  font-weight: bold;
   color: white;
 }
 
@@ -67,40 +72,47 @@
   font-size: 70px;
   text-align: center;
   margin-top: 50px;
-  font-weight:bold;
+  font-weight: bold;
   color: black;
 }
 
 .uk-light .uk-iconnav>.uk-active>a>svg>rect {
-  color:white;
+  color: white;
 }
+
 .uk-light .uk-iconnav>.uk-active>.uk-icon {
   background-color: rgba(0, 0, 0, 0) !important;
 }
+
 .uk-light .uk-iconnav>*>a>svg>rect {
   width: 24px !important;
-  height:4px;
+  height: 4px;
 }
-.uk-light .uk-iconnav>*>a>svg{
+
+.uk-light .uk-iconnav>*>a>svg {
   width: 24px;
 }
-.Date{
+
+.Date {
   text-align: center;
   font-family: 'Roboto';
   font-size: 50px;
   line-height: 1.2;
   padding-top: 2vh;
 }
-.Time{
+
+.Time {
   font-family: 'Roboto';
   font-size: 20px;
   color: #cc5200;
 }
-.Location{
+
+.Location {
   font-family: 'Roboto';
   font-size: 20px;
   color: #cc5200;
 }
+
 .infodesc {
   text-align: left;
   font-family: 'Roboto';
@@ -111,10 +123,12 @@
   font-weight: bold;
   color: #FFCE00;
 }
+
 .boarddesc {
   color: #bbb;
 }
-.aboutUsText{
+
+.aboutUsText {
   font-family: 'Roboto';
   font-size: 20px;
   text-align: left;
@@ -123,18 +137,22 @@
   color: #cccccc;
 }
 
-hr{
-  position:relative;
+hr {
+  position: relative;
   border: 2px solid #ff6600;
   width: 25%;
   left: 37.5%;
   margin-bottom: 5vh;
-  padding:0px;
+  padding: 0px;
 }
 
 .info {
   margin-bottom: 10vh;
   text-align: left;
+  display: block;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .sponsor {
@@ -149,46 +167,46 @@ hr{
   object-fit: contain;
 }
 
-.eagle{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) ,  url('https://www.thoughtco.com/thmb/HkYbzkvhT1OzVdXLRkKwh6mp8Xc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg');
+.eagle {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)), url('https://www.thoughtco.com/thmb/HkYbzkvhT1OzVdXLRkKwh6mp8Xc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg');
   background-repeat: no-repeat;
-  background-position:center center;
+  background-position: center center;
   background-size: cover;
-  background-attachment:scroll;
+  background-attachment: scroll;
 }
 
-.falcon{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) ,  url('https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/11/04/931/524/694940094001_5857455145001_5857450760001-vs.jpg?ve=1&tl=1');
+.falcon {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)), url('https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/11/04/931/524/694940094001_5857455145001_5857450760001-vs.jpg?ve=1&tl=1');
   background-repeat: no-repeat;
-  background-position:center center;
+  background-position: center center;
   background-size: cover;
-  background-attachment:scroll;
+  background-attachment: scroll;
 }
 
-.pelican{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('https://www.allaboutbirds.org/guide/assets/photo/304463771-480px.jpg');
+.pelican {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)), url('https://www.allaboutbirds.org/guide/assets/photo/304463771-480px.jpg');
   background-repeat: no-repeat;
-  background-position:center center;
+  background-position: center center;
   background-size: cover;
-  background-attachment:scroll;
+  background-attachment: scroll;
 }
 
-.eagle:hover{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)) ,  url('https://www.thoughtco.com/thmb/HkYbzkvhT1OzVdXLRkKwh6mp8Xc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg');
+.eagle:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://www.thoughtco.com/thmb/HkYbzkvhT1OzVdXLRkKwh6mp8Xc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg');
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 
 }
 
-.falcon:hover{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)) ,  url('https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/11/04/931/524/694940094001_5857455145001_5857450760001-vs.jpg?ve=1&tl=1');
+.falcon:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/11/04/931/524/694940094001_5857455145001_5857450760001-vs.jpg?ve=1&tl=1');
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 
 
-.pelican:hover{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)) , url('https://www.allaboutbirds.org/guide/assets/photo/304463771-480px.jpg');
+.pelican:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://www.allaboutbirds.org/guide/assets/photo/304463771-480px.jpg');
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
@@ -201,34 +219,38 @@ hr{
 .eagle .Title,
 .falcon .Title,
 .pelican .Title {
-  position:relative;
-  color:white;
-  top:30%;
+  position: relative;
+  color: white;
+  top: 30%;
   font-size: 100px;
 }
 
 #modal .Title,
 #modal1 .Title,
-#modal2 .Title{
+#modal2 .Title {
   color: black;
 }
-#gallery .Title{
+
+#gallery .Title {
   color: black;
   padding-top: 0%;
-  margin-top:5%;
+  margin-top: 5%;
 }
+
 #gallery {
   padding: 5%;
 }
 
-.ukdotnav{
+.ukdotnav {
   border: black;
 }
+
 .sponsors {
   background-color: white;
   padding: 1vh;
-  text-align:center;
+  text-align: center;
 }
+
 .sponsors .Title {
   color: black;
 }
@@ -236,7 +258,7 @@ hr{
 .goldeneagle-sponsors {
   background-color: white;
   padding: 1vh;
-  text-align:center;
+  text-align: center;
 }
 
 .goldeneagle-sponsors .Title {
@@ -247,7 +269,7 @@ hr{
 .gold-sponsors {
   background-color: white;
   padding: 1vh;
-  text-align:center;
+  text-align: center;
 }
 
 .gold-sponsors .Title {
@@ -258,7 +280,7 @@ hr{
 .silver-sponsors {
   background-color: white;
   padding: 1vh;
-  text-align:center;
+  text-align: center;
 }
 
 .silver-sponsors .Title {
@@ -270,7 +292,7 @@ hr{
 .bronze-sponsors {
   background-color: white;
   padding: 1vh;
-  text-align:center;
+  text-align: center;
 }
 
 .bronze-sponsors .Title {
@@ -286,6 +308,7 @@ hr{
   font-size: 20px;
   display: block;
 }
+
 .memberinfo {
   background-color: black;
   padding-right: 5vw;
@@ -312,32 +335,34 @@ hr{
   font-family: 'Roboto';
   font-size: 35px;
   padding: 1%;
-  color:white;
+  color: white;
   background-color: black;
 }
 
-.mbutton:hover{
-  color:black;
+.mbutton:hover {
+  color: black;
   background-color: white;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
+
 .ebutton {
   margin-left: 5vw;
   font-family: 'Roboto';
   font-size: 35px;
   padding: 1%;
-  color:black;
-  background-color:#fff7e6;
+  color: black;
+  background-color: #fff7e6;
 }
 
-.ebutton:hover{
-  color:white;
+.ebutton:hover {
+  color: white;
   background-color: black;
   -webkit-transition-duration: 0.5s;
-  transition-duration:0.5s;
+  transition-duration: 0.5s;
 }
-.imgwrapper{
+
+.imgwrapper {
   display: inline-block;
   position: relative;
   width: 150px;
@@ -352,40 +377,45 @@ hr{
   height: 100%;
 }
 
-.officer{
-  text-align:center;
+.officer {
+  text-align: center;
   overflow: hidden;
   padding-bottom: 5vh;
 }
 
 .officers .Title {
-  padding:3vh;
+  padding: 3vh;
 }
+
 #contactUs {
   font-size: 40px;
   padding: 0;
 }
+
 .contactUs hr {
-  position:relative;
+  position: relative;
   border: 2px solid #ff6600;
   width: 25%;
   left: 37.5%;
   margin-bottom: 5vh;
-  padding:0px;
+  padding: 0px;
 }
 
 i.fab,
 i.fas {
   color: white;
 }
+
 .contactUs .Title {
-  padding-bottom:3vh;
+  padding-bottom: 3vh;
   color: white;
 }
+
 .footer a {
   padding-left: 5px;
   padding-right: 5px;
 }
+
 .contactUs {
   text-align: center;
   background-color: black;
@@ -411,66 +441,69 @@ i.fas {
   padding-right: 20%;
   padding-top: 1%;
 }
+
 .officers2 {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 2%;
   padding-top: 2%;
 }
-.boardname{
+
+.boardname {
   font-family: 'Roboto' !important;
   font-size: 20px;
   font-weight: bold;
   color: white;
 }
 
-.boarddesc{
+.boarddesc {
   font-family: 'Roboto' !important;
   font-size: 18px;
   margin: 0px;
   padding: 0px;
 }
 
-.footer{
+.footer {
   background-color: black;
   text-align: center;
   padding-top: 3vh;
   padding-bottom: 3vh;
 }
 
-.footer h1{
+.footer h1 {
   font-family: 'Roboto';
   font-size: 40px;
 }
 
-.footer p{
+.footer p {
   font-family: 'Roboto';
   font-size: 15px;
-  color:white;
+  color: white;
 }
 
 .uk-logo {
   height: 100px;
   padding: 5% 0% 5% 10%;
 }
-.uk-navbar-container{
+
+.uk-navbar-container {
   background-color: #000000 !important;
 }
 
-.uk-navbar-left > a{
+.uk-navbar-left>a {
   font-family: 'Roboto' !important;
   font-size: 30px;
   font-weight: bold;
   padding-left: 2vw;
 }
 
-.uk-navbar-left > ul > li > a{
+.uk-navbar-left>ul>li>a {
   font-family: 'Roboto' !important;
   font-weight: bold;
 }
 
 
-.uk-navbar-right > ul > li > a{
+.uk-navbar-right>ul>li>a {
   font-family: 'Roboto' !important;
   color: white;
   padding-left: 1vw;
@@ -478,37 +511,43 @@ i.fas {
   font-weight: bold;
 }
 
-.uk-navbar-right > ul > li > a:hover {
+.uk-navbar-right>ul>li>a:hover {
   color: #666666;
 }
 
-.uk-active > a,
-.uk-active > a:hover{
+.uk-active>a,
+.uk-active>a:hover {
   background-color: #000000 !important;
 }
 
-.uk-nav > li > a{
+.uk-nav>li>a {
   font-family: 'Roboto' !important;
   color: white !important;
   font-size: 25px;
   font-weight: bold;
 }
+
 .sponsors {
   padding: 2% 10% 2% 10%;
 }
+
 .sponsors2 {
-    background-color: black;
-    padding: 2%;
+  background-color: black;
+  padding: 2%;
 }
+
 .sponsors2>.adblock {
   color: #ccc;
 }
+
 .sponsors2>.Title {
   color: #ffce00;
 }
+
 .SponsorUs>button>.Title {
   font-size: 80px;
 }
+
 .sponsorimg {
   width: 400px;
   padding: 2%;
@@ -520,7 +559,7 @@ i.fas {
 
 @media only screen and (max-width: 1600px) {
 
-  .imgwrapper{
+  .imgwrapper {
     width: 150px;
     height: 150px;
   }
@@ -530,17 +569,18 @@ i.fas {
     padding-right: 10%;
     padding-top: 2%;
   }
+
   .officers2 {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 2%;
   }
 
-  .boardname{
+  .boardname {
     margin: 0px;
   }
 
-  .boarddesc{
+  .boarddesc {
     margin: 0px;
     padding-bottom: 20px;
   }
@@ -561,47 +601,50 @@ i.fas {
 
 @media only screen and (max-width: 1200px) {
 
-  .header h1{
+  .header h1 {
     font-size: 90px;
     top: 40%;
     font-weight: bold;
   }
 }
+
 @media only screen and (max-width:1000px) {
-  .uk-iconnav{
+  .uk-iconnav {
     display: none;
   }
+
   .sponsorimg {
     width: 250px;
     padding: 2%;
   }
 }
+
 @media only screen and (max-width: 700px) {
 
   .header::after {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.5)) ,  url('../img/background2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.5)), url('../img/background2.jpg');
   }
 
-  .header h1{
+  .header h1 {
     font-size: 45px;
     top: 30%;
   }
 
-  .header h1 span{
+  .header h1 span {
     font-size: 70px;
   }
 
-  .imgwrapper{
+  .imgwrapper {
     width: 100px;
     height: 100px;
   }
 
-  .boardname{
+  .boardname {
     font-size: 18px;
     margin: 0px;
   }
 
-  .boarddesc{
+  .boarddesc {
     font-size: 15px;
     margin: 0px;
     padding-bottom: 20px;
@@ -630,7 +673,7 @@ i.fas {
     height: 390px;
   }
 
-  .navbarToggle svg{
+  .navbarToggle svg {
     color: white;
 
   }
@@ -639,37 +682,47 @@ i.fas {
     width: 70px;
   }
 
-  .uk-offcanvas-close svg{
+  .uk-offcanvas-close svg {
     color: white;
   }
+
   .contactUs .Title {
     font-size: 40px;
   }
+
   .Title {
     font-size: 40px;
   }
+
   .infodesc {
     font-size: 40px;
+    
   }
+
   .aboutUsText {
     font-size: 16px;
   }
+
   .adblock {
     font-size: 16px;
   }
+
   .sponsors>.Title {
     padding-bottom: 0px;
   }
+
   .eagle,
   .pelican,
   .falcon {
     height: 300px;
   }
+
   .eagle>.Title,
   .pelican>.Title,
   .falcon>.Title {
     font-size: 60px !important;
   }
+
   .uk-logo {
     height: 70px;
     padding: 5% 10% 5% 10%;
@@ -677,128 +730,128 @@ i.fas {
 
 }
 
-  .table {
-    border:1px solid #b3adad;
-    border-collapse:collapse;
-    padding:5px;
-    border-spacing: 30px;
-    width: 100%;
-  }
+.table {
+  border: 1px solid #b3adad;
+  border-collapse: collapse;
+  padding: 5px;
+  border-spacing: 30px;
+  width: 100%;
+}
 
-  .table th {
-    border:1px solid #b3adad;
-    padding:5px;
-    background: #ffd500;
-    color: #000000;
-    font-size: 30px;
-  }
+.table th {
+  border: 1px solid #b3adad;
+  padding: 5px;
+  background: #ffd500;
+  color: #000000;
+  font-size: 30px;
+}
 
-  .table td {
-    border:1px solid #b3adad;
-    text-align:center;
-    padding:5px;
-    background: #ffffff;
-    color: #000000;
-  }
-
-  
-  .button-28 {
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid #ffce00;
-    border-radius: 15px;
-    box-sizing: border-box;
-    color: #ffce00;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 16px;
-    font-weight: 600;
-    line-height: normal;
-    margin: 0;
-    min-height: 60px;
-    min-width: 0;
-    outline: none;
-    padding: 16px 24px;
-    text-align: center;
-    text-decoration: none;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 50%;
-    will-change: transform;
-  }
-  
-  .button-28:disabled {
-    pointer-events: none;
-  }
-  
-  .button-28:hover {
-    color: #fff;
-    background-color: #ffce00;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
-  }
-  
-  .button-28:active {
-    box-shadow: none;
-    transform: translateY(0);
-  }
+.table td {
+  border: 1px solid #b3adad;
+  text-align: center;
+  padding: 5px;
+  background: #ffffff;
+  color: #000000;
+}
 
 
-  .button-29 {
-    appearance: none;
-    background-color: #ffce00;
-    border: 2px solid #ffce00;
-    border-radius: 15px;
-    box-sizing: border-box;
-    color: black;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 16px;
-    font-weight: 600;
-    line-height: normal;
-    margin: 0;
-    min-height: 60px;
-    min-width: 0;
-    outline: none;
-    padding: 16px 24px;
-    text-align: center;
-    text-decoration: none;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 50%;
-    will-change: transform;
-  }
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #ffce00;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffce00;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+  will-change: transform;
+}
 
-  .button-29:hover {
-    color: #fff;
-    background-color: #ffce00;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
-  }
-  
-  .button-29:active {
-    box-shadow: none;
-    transform: translateY(0);
-  }
-   
-  .flex-parent {
-    display: flex;
-  }
-  
-  .jc-center {
-    justify-content: center;
-  }
-  
-  button.margin-right {
-    margin-right: 20px;
-  }
-              
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #ffce00;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+.button-29 {
+  appearance: none;
+  background-color: #ffce00;
+  border: 2px solid #ffce00;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+  will-change: transform;
+}
+
+.button-29:hover {
+  color: #fff;
+  background-color: #ffce00;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+button.margin-right {
+  margin-right: 20px;
+}
+
 .styled-table {
   border-collapse: collapse;
   margin: 25px 0;
@@ -817,8 +870,8 @@ i.fas {
 
 .styled-table th,
 .styled-table td {
-    padding: 12px 15px;
-    vertical-align: top;
+  padding: 12px 15px;
+  vertical-align: top;
 }
 
 .styled-table tbody tr {
@@ -850,7 +903,8 @@ table.center {
   margin-right: auto;
 }
 
-.team-table td, th {
+.team-table td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -865,7 +919,7 @@ h2.teams-page {
   font-size: 40px;
   text-align: center;
   margin-top: 50px;
-  font-weight:bold;
+  font-weight: bold;
   color: black;
 }
 
@@ -880,10 +934,17 @@ img.club-logo {
 
 /* contact form */
 
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-input[type=text], select, textarea {
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -917,4 +978,63 @@ input[type=submit]:hover {
   background-color: black;
   text-align: center;
   padding: 10px;
+}
+
+/* Footer */
+.footer-cont {
+
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  gap: 20px;
+  background: black;
+  margin: 0;
+  padding-top: 10px;
+
+}
+
+.copy {
+  margin: 0px;
+  display: block;
+  color: white;
+}
+
+.footer-ul {
+  padding: 0px;
+  margin: 0;
+
+
+}
+
+ul li {
+  list-style-type: none;
+  gap: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+
+}
+
+.lowerNav {
+
+  justify-content: center;
+  display: flex;
+}
+
+.img-cont {
+  padding-left: 0px;
+  padding-bottom: 10px;
+  width: 645px;
+  height: auto;
+}
+
+
+.img-text {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
 }
