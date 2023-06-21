@@ -14,7 +14,7 @@
 }
 
 link[rel="icon"] {
-  font-size: 34px; 
+  font-size: 34px;
 }
 
 .header {
@@ -696,7 +696,7 @@ i.fas {
 
   .infodesc {
     font-size: 40px;
-    
+
   }
 
   .aboutUsText {
@@ -1037,4 +1037,22 @@ ul li {
   display: flex;
   justify-content: space-around;
   padding-bottom: 30px;
+}
+
+/* About new */
+.about-sec {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.about-cont {
+  width: 77%;
+
+
+}
+
+.abt-txt {
+  margin: 0;
 }
