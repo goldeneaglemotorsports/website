@@ -76,7 +76,7 @@ link[rel="icon"] {
   color: black;
 }
 
-.uk-light .uk-iconnav>.uk-active>a>svg>rect {
+/* .uk-light .uk-iconnav>.uk-active>a>svg>rect {
   color: white;
 }
 
@@ -91,7 +91,7 @@ link[rel="icon"] {
 
 .uk-light .uk-iconnav>*>a>svg {
   width: 24px;
-}
+} */
 
 .Date {
   text-align: center;
@@ -240,10 +240,10 @@ hr {
 #gallery {
   padding: 5%;
 }
-
+/* 
 .ukdotnav {
   border: black;
-}
+} */
 
 .sponsors {
   background-color: white;
@@ -486,7 +486,7 @@ i.fas {
   padding: 5% 0% 5% 10%;
 }
 
-.uk-navbar-container {
+/* .uk-navbar-container {
   background-color: #000000 !important;
 }
 
@@ -513,19 +513,19 @@ i.fas {
 
 .uk-navbar-right>ul>li>a:hover {
   color: #666666;
-}
+} */
 
 .uk-active>a,
 .uk-active>a:hover {
   background-color: #000000 !important;
 }
 
-.uk-nav>li>a {
+/* .uk-nav>li>a {
   font-family: 'Roboto' !important;
   color: white !important;
   font-size: 25px;
   font-weight: bold;
-}
+} */
 
 .sponsors {
   padding: 2% 10% 2% 10%;
@@ -609,9 +609,9 @@ i.fas {
 }
 
 @media only screen and (max-width:1000px) {
-  .uk-iconnav {
+  /* .uk-iconnav {
     display: none;
-  }
+  } */
 
   .sponsorimg {
     width: 250px;
@@ -673,14 +673,14 @@ i.fas {
     height: 390px;
   }
 
-  .navbarToggle svg {
+  /* .navbarToggle svg {
     color: white;
 
-  }
+  } */
 
-  .navbarToggle {
+  /* .navbarToggle {
     width: 70px;
-  }
+  } */
 
   .uk-offcanvas-close svg {
     color: white;
@@ -1100,10 +1100,10 @@ body {
 
 }
 
-ul li {
+/* ul li {
   list-style-type: none;
   gap: 15px;
-}
+} */
 
 .socials {
   display: flex;
